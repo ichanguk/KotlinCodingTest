@@ -7,6 +7,5 @@
 
 
 ## *Contents*
-|백준|
-|------|
-|[출력](https://github.com/ichanguk/KotlinCodingTest/tree/master/app/src/main/java/com/example/kotlincodingtest/baekjoon/%EC%B6%9C%EB%A0%A5)|
+### 백준
+- [출력](https://github.com/ichanguk/KotlinCodingTest/tree/master/app/src/main/java/com/example/kotlincodingtest/baekjoon/%EC%B6%9C%EB%A0%A5)
