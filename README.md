@@ -9,3 +9,4 @@
 ## *Contents*
 ### 백준
 - [출력](https://github.com/ichanguk/KotlinCodingTest/tree/master/app/src/main/java/com/example/kotlincodingtest/baekjoon/%EC%B6%9C%EB%A0%A5)
+- [입력과 계산](https://github.com/ichanguk/KotlinCodingTest/tree/master/app/src/main/java/com/example/kotlincodingtest/baekjoon/%EC%9E%85%EB%A0%A5%EA%B3%BC%EA%B3%84%EC%82%B0)
