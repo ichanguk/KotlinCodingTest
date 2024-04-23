@@ -21,3 +21,4 @@
 |||
 |-----|-----|
 |[심화1](https://github.com/ichanguk/KotlinCodingTest/tree/master/app/src/main/java/com/example/kotlincodingtest/baekjoon/%EB%8B%A8%EA%B3%84%EB%B3%84/%EC%8B%AC%ED%99%941)|[2차원배열](https://github.com/ichanguk/KotlinCodingTest/tree/master/app/src/main/java/com/example/kotlincodingtest/baekjoon/%EB%8B%A8%EA%B3%84%EB%B3%84/2%EC%B0%A8%EC%9B%90%EB%B0%B0%EC%97%B4)|
+|[일반수학1](https://github.com/ichanguk/KotlinCodingTest/tree/master/app/src/main/java/com/example/kotlincodingtest/baekjoon/%EB%8B%A8%EA%B3%84%EB%B3%84/%EC%9D%BC%EB%B0%98%EC%88%98%ED%95%991)||
