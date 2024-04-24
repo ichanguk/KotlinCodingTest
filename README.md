@@ -21,4 +21,5 @@
 |||
 |-----|-----|
 |[심화1](https://github.com/ichanguk/KotlinCodingTest/tree/master/app/src/main/java/com/example/kotlincodingtest/baekjoon/%EB%8B%A8%EA%B3%84%EB%B3%84/%EC%8B%AC%ED%99%941)|[2차원배열](https://github.com/ichanguk/KotlinCodingTest/tree/master/app/src/main/java/com/example/kotlincodingtest/baekjoon/%EB%8B%A8%EA%B3%84%EB%B3%84/2%EC%B0%A8%EC%9B%90%EB%B0%B0%EC%97%B4)|
-|[일반수학1](https://github.com/ichanguk/KotlinCodingTest/tree/master/app/src/main/java/com/example/kotlincodingtest/baekjoon/%EB%8B%A8%EA%B3%84%EB%B3%84/%EC%9D%BC%EB%B0%98%EC%88%98%ED%95%991)||
+|[일반수학1](https://github.com/ichanguk/KotlinCodingTest/tree/master/app/src/main/java/com/example/kotlincodingtest/baekjoon/%EB%8B%A8%EA%B3%84%EB%B3%84/%EC%9D%BC%EB%B0%98%EC%88%98%ED%95%991)[약수, 배수와 소수](https://github.com/ichanguk/KotlinCodingTest/tree/master/app/src/main/java/com/example/kotlincodingtest/baekjoon/%EB%8B%A8%EA%B3%84%EB%B3%84/%EC%95%BD%EC%88%98_%EB%B0%B0%EC%88%98%EC%99%80_%EC%86%8C%EC%88%98)|
+|[브루트포스](https://github.com/ichanguk/KotlinCodingTest/tree/master/app/src/main/java/com/example/kotlincodingtest/baekjoon/%EB%8B%A8%EA%B3%84%EB%B3%84/%EB%B8%8C%EB%A3%A8%ED%8A%B8%ED%8F%AC%EC%8A%A4)||
