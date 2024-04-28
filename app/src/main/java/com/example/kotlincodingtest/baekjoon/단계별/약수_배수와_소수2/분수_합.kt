@@ -19,7 +19,7 @@ fun lcm(a: Int, b: Int): Int {
     return (a * b) / gcd(a, b)
 }
 
-fun gcd(a: Int, b: Int): Int {
+private fun gcd(a: Int, b: Int): Int {
     var r = 0
     var A = Math.max(a, b)
     var B = Math.min(a, b)
