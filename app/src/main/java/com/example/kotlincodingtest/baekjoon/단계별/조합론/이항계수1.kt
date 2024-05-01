@@ -8,7 +8,7 @@ fun main() = with(BufferedReader(System.`in`.bufferedReader())) {
     println(combi(N, K))
 }
 
-fun combi(n: Int, k: Int): Int {
+private fun combi(n: Int, k: Int): Int {
     return fact(n) / fact(n - k) / fact(k)
 }
 
