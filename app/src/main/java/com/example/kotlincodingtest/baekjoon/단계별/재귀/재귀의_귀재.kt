@@ -2,7 +2,7 @@ package com.example.kotlincodingtest.baekjoon.단계별.재귀
 
 import java.io.BufferedReader
 
-var cnt = 0
+private var cnt = 0
 
 fun main() = with(BufferedReader(System.`in`.bufferedReader())) {
     val T = readLine().toInt()
