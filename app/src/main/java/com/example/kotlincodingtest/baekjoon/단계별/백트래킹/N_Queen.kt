@@ -26,7 +26,7 @@ fun nQueen(n: Int) {
         return
     }
     for (i in 0 until N) {
-        if (!rowColVisit[i] && !croVisit[n + i] && !croRevVisit[n - i + N - 1]) {
+        if (!rowColVisit[i] && !croVisit[n + i] && !croRevVisit[i - n + N - 1]) {
             reverseVisit(i, n)
             nQueen(n + 1)
             reverseVisit(i, n)
@@ -37,5 +37,5 @@ fun nQueen(n: Int) {
 fun reverseVisit(i: Int, n: Int) {
     rowColVisit[i] = !rowColVisit[i]
     croVisit[n + i] = !croVisit[n + i]
-    croRevVisit[n - i + N - 1] = !croRevVisit[n - i + N - 1]
+    croRevVisit[i - n + N - 1] = !croRevVisit[i - n + N - 1]
 }
