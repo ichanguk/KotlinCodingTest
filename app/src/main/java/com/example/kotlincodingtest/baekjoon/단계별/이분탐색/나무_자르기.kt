@@ -2,31 +2,31 @@ package com.example.kotlincodingtest.baekjoon.단계별.이분탐색
 
 import java.io.BufferedReader
 
-private var LANCable = mutableListOf<Long>()
+private var trees = listOf<Long>()
 private var ans = 0L
 
 fun main() = with(BufferedReader(System.`in`.bufferedReader())) {
-    val (K, N) = readLine().split(' ').map { it.toInt() }
-    LANCable = MutableList(K) { 0L }
-    for (i in 0 until K) {
-        LANCable[i] = readLine().toLong()
-    }
-    LANCable.sort()
-    cut(N)
+    val (N, M) = readLine().split(' ').map { it.toInt() }
+    trees = readLine().split(' ').map { it.toLong() }
+
+    cut(M)
     println(ans)
 }
 
-private fun cut(n: Int) {
+private fun cut(m: Int) {
     var low = 1L
-    var high = LANCable[LANCable.size - 1]
+    var high = trees.max()
     var mid = (low + high) / 2
 
+    var cnt:Long
     while (low <= high) {
-        var cnt = 0L
-        LANCable.forEach {
-            cnt += it / mid
+        cnt = 0
+        trees.forEach {
+            if (it > mid) {
+                cnt += it - mid
+            }
         }
-        if (cnt >= n) {
+        if (cnt >= m) {
             ans = mid
             low = mid + 1
         } else {
@@ -35,4 +35,3 @@ private fun cut(n: Int) {
         mid = (low + high) / 2
     }
 }
-
