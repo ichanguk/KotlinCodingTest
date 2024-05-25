@@ -3,21 +3,18 @@ package com.example.kotlincodingtest.baekjoon.단계별.그래프와_순회
 import java.io.BufferedReader
 
 private var isVisit = mutableListOf(mutableListOf<Boolean>())
-private var houseMap = mutableListOf(mutableListOf<Int>())
 private var N = 0
 private var cnt = 0
 
 
 fun main() = with(BufferedReader(System.`in`.bufferedReader())) {
     N = readLine().toInt()
-    houseMap = MutableList(N) { MutableList(N) { 0 } }
     isVisit = MutableList(N) { MutableList(N) { false } }
     var input: String
     for (i in 0 until N) {
         input = readLine()
         for (j in 0 until N) {
-            houseMap[i][j] = input[j] - '0'
-            if (houseMap[i][j] == 0) {
+            if (input[j] == '0') {
                 isVisit[i][j] = true
             }
         }
