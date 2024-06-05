@@ -1,6 +1,6 @@
-package com.example.kotlincodingtest.programmers.Lv1
+package com.example.kotlincodingtest.programmers.Lv1.달리기_경주
 
-private class Solution {
+class Solution {
     fun solution(players: Array<String>, callings: Array<String>): Array<String> {
         val playerMap = mutableMapOf<String, Int>()
         val rankMap = mutableMapOf<Int, String>()
