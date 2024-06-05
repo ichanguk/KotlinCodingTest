@@ -1,4 +1,4 @@
-package com.example.kotlincodingtest.programmers.Lv1.달리기_경주
+package com.example.kotlincodingtest.programmers.Lv1.구현.달리기_경주
 
 class Solution {
     fun solution(players: Array<String>, callings: Array<String>): Array<String> {

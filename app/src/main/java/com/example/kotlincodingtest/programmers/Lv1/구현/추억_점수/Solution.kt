@@ -1,4 +1,4 @@
-package com.example.kotlincodingtest.programmers.Lv1.추억_점수
+package com.example.kotlincodingtest.programmers.Lv1.구현.추억_점수
 
 class Solution {
     fun solution(name: Array<String>, yearning: IntArray, photo: Array<Array<String>>): IntArray {
