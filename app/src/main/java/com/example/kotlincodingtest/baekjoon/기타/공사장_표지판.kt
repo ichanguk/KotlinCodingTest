@@ -26,7 +26,7 @@ fun main() = with(BufferedReader(System.`in`.bufferedReader())) {
         println('*')
     }
 
-    if (n % 2 == 1) {
+    if (n % 2 == 1 && n > 1) {
         print('*')
         repeat((n - 3) / 2) {
             print(' ')
@@ -44,9 +44,16 @@ fun main() = with(BufferedReader(System.`in`.bufferedReader())) {
             print(' ')
         }
         print('*')
-        repeat(2* it) {
-            print(' ')
+        if (n % 2 == 0) {
+            repeat(2 * it) {
+                print(' ')
+            }
+        } else {
+            repeat(2 * it + 1) {
+                print(' ')
+            }
         }
+
         print('*')
         repeat((n - 4) / 2 - it) {
             print(' ')
@@ -54,9 +61,11 @@ fun main() = with(BufferedReader(System.`in`.bufferedReader())) {
         println('*')
     }
 
-    repeat(n) {
-        print('*')
+    if (n > 1) {
+        repeat(n) {
+            print('*')
+        }
+        println()
     }
-    println()
 
 }
